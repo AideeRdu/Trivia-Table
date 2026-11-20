@@ -2,23 +2,6 @@
 
 A Node/Express + PostgreSQL API for trivia questions, organized with the model → controller → router pattern.
 
-## Project structure
-
-```
-triviabook/
-├── server.js                      # Express app, mounts the router at /triviabook
-├── routes/triviaRoutes.js         # Router: URL → controller function
-├── controllers/triviaController.js# Controller: validation + responses
-├── models/triviaModel.js          # Model: all SQL queries
-├── db/
-│   ├── index.js                   # pg connection pool
-│   ├── schema.sql                 # CREATE TABLE statements
-│   ├── seed.sql                   # Seed data
-│   └── setup.js                   # Runs schema.sql + seed.sql
-├── .env.example
-└── .gitignore                     # node_modules and .env
-```
-
 ## Database schema
 
 **topics**
