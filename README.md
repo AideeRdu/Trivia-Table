@@ -104,3 +104,4 @@ returns `201` and the full list of `history` questions.
 - Topic names are case-insensitive: they're saved in lowercase, so `/topic/Science` and `/topic/science` return the same results.
 - Answer checking ignores case and leading/trailing whitespace.
 - All queries are parameterized to prevent SQL injection.
+- https://trivia-table.onrender.com
